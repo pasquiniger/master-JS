@@ -1,0 +1,35 @@
+.texturas{
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.texturas div {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 6px;
+    cursor: pointer;
+    user-select: all;
+}
+
+.texturas div:active{
+    opacity: 0.5;
+}
+
+.textura1{
+    background: url("textura1.jpeg")
+}
+.textura2{
+    background: url("textura2.jpeg")
+}
+.textura3{
+    background: url("textura3.jpeg")
+}
+
+.zona{
+    margin: 10px;
+    height: 200px;
+    background: #ddd;
+}

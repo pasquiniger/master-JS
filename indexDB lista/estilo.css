@@ -1,0 +1,63 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body, h2, div, input, button{
+    padding: 0;
+    margin: 0;
+}
+
+.name-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.name{
+    display: grid;
+    grid-template-columns: minmax(80px, 300px) 1fr;
+    border-top: 1px solid #48e;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.options{
+    display: flex;
+    justify-content: center;
+}
+
+.add-name{
+    margin: 40px 0;
+}
+
+#name, #add{
+    padding: 4px 8px;
+}
+
+.options button{
+    background-color: transparent;
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete:hover{
+    color: #999;
+}
+
+.imposible{
+    color: #ccc;
+}
+
+.posible{
+    color: #37a;
+}
+
+.posible:hover{
+    color: #6af;
+}
+
+.name h2{
+    padding: 6px;
+}

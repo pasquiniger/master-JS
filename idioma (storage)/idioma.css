@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.modal-overlay{
+    background: rgba(0,0,0,0.7);
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    animation: aparecer 1s forwards;
+}
+
+.modal{
+    background-color: #fff;
+    margin: 30px;
+    padding: 20px;
+}
+
+button{
+    padding: 9px;
+    border:none;
+    margin: 6px;
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+button:active{
+    background-color: #999;
+}
+
+@keyframes aparecer{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}

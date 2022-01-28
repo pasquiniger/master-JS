@@ -1,0 +1,33 @@
+body{
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+.caja{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    margin: 20px auto;
+    color: #fff;
+    background-color: #48e;
+    font-size: 26px;
+    border: 10px dashed #236
+}
+
+.caja span{
+    margin: auto;
+}
+
+.caja:nth-child(2){
+    background-color: rgb(218, 31, 31);
+    border: 10px dashed #821;
+}
+.caja:nth-child(3){
+    background-color: rgb(221, 81, 168);
+    border: 10px dashed rgb(85, 16, 37);
+}
+.caja:nth-child(4){
+    background-color: rgb(74, 221, 140);
+    border: 10px dashed rgb(11, 46, 19);
+}
